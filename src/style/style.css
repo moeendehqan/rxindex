@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Bold";
+  src: url("../../public/font/IBMPlexArabic-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SemiBold";
+  src: url("../../public/font/IBMPlexArabic-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Medium";
+  src: url("../../public/font/IBMPlexArabic-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Regular";
+  src: url("../../public/font/IBMPlexArabic-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Light";
+  src: url("../../public/font/IBMPlexArabic-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Thin";
+  src: url("../../public/font/IBMPlexArabic-Thin.ttf") format("truetype");
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  direction: rtl;
+  font-family: "Regular";
+}
+
+html, body {
+  height: 100%;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background: #222B40;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+}
+header .logo {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0px 35px;
+  align-items: end;
+}
+header .logo :first-child {
+  width: 45px;
+}
+header .logo :last-child {
+  width: 100px;
+  margin: 0px 25px;
+}
+header > button {
+  width: 220px;
+  margin-right: 50px;
+  height: 40px;
+  background: #26C5A8;
+  color: #F3F1EF;
+  border: 0px;
+  font-size: 13pt;
+  font-family: "Bold";
+  cursor: pointer;
+}
+header > button:hover {
+  background: #3ac9ae;
+}/*# sourceMappingURL=style.css.map */
